@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Sora } from "next/font/google";
+//components
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import TopLeftImg from "./components/TopLeftImg";
