@@ -80,11 +80,11 @@ const aboutData = [
       },
       {
         title: "Maquetación",
-        stage: "Estructura, Estilos, Posicionamiento, Full Responsive ...",
+        stage: "Estructura, Estilos,Full Responsive",
       },
       {
         title: "Diseños - Interface",
-        stage: "Wireframes, mostrando al usuario una vista previa.",
+        stage: "Wireframes, vista previa.",
       },
     ],
   },
@@ -121,11 +121,11 @@ const About = () => {
 
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 ">
+      <div className="container mx-auto h-full flex flex-col items-center px-3 xl:flex-row gap-x-6 ">
         <div className="flex-1 flex flex-col justify-center">
           <h2 className="h2">
             Dos años de experiencia en{" "}
-            <span className="text-accent">Desarrollo</span>Web
+            <span className="text-accent">Desarrollo</span> Web
           </h2>
           <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
             Encontré en la programación un mundo que me lleva a estar
@@ -159,8 +159,8 @@ const About = () => {
                   className="flex-1 flex flex-col md:flex-row max-w-max items-center text-white/60"
                 >
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                  <div className="hidden md:flex">-</div>
-                  <div>{item.stage}</div>
+                  <div className="hidden md:flex pr-2 pl-1">- </div>
+                  <div>{item.stage} </div>
                   <div className="flex gap-x-4">
                     {" "}
                     {item.icons?.map((icon, itemIndex) => {
