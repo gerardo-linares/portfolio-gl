@@ -1,13 +1,13 @@
 import Link from "next/link";
 import {
-  RiInstagramLine,
   RiFacebookLine,
   RiGithubLine,
   RiWhatsappLine,
+  RiLinkedinLine,
 } from "react-icons/ri";
 
 const socialLinks = [
-  { icon: <RiInstagramLine />, path: "/" },
+  { icon: <RiLinkedinLine />, path: "/" },
   { icon: <RiFacebookLine />, path: "/" },
   { icon: <RiGithubLine />, path: "/" },
   { icon: <RiWhatsappLine />, path: "/" },
